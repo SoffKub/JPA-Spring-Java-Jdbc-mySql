@@ -17,7 +17,7 @@ public class PreperedStatement {
 		
 	try{
 		//1. Connection to database
-		Connection mycon=DriverManager.getConnection("jdbc:mysql://localhost:3306/movies?user=root&password=Bananer123&useSSL=false");
+		Connection mycon=DriverManager.getConnection("jdbc:mysql://localhost:3306/movies?user=root&password=" "&useSSL=false");
 				
 				
 		//2. Create a statement
