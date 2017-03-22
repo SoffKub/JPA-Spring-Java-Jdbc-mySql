@@ -19,14 +19,14 @@ public class GetGKey {
 		try {
 			// Get a connection to database
 			myConn = DriverManager
-					.getConnection("jdbc:mysql://localhost:3306/movies?user=root&password=Bananer123&useSSL=false");
+					.getConnection("jdbc:mysql://localhost:3306/movies?user=root&password=""&useSSL=false");
 
 			// Set the parameters
 			myStat = myConn.prepareStatement(insert, Statement.RETURN_GENERATED_KEYS);
 		
-			myStat.setString(1, "Hotell Påfågeln");
+			myStat.setString(1, "Hotell PÃ¥fÃ¥geln");
 			myStat.setString(2, "Pilgatan 43");
-			myStat.setString(3, "Södertälje");
+			myStat.setString(3, "SÃ¶dertÃ¤lje");
 			myStat.setInt(4, 5);
 			myStat.setString(5, "www.pafageln.nu");
 			myStat.setString(6, "info@pafageln.nu");
