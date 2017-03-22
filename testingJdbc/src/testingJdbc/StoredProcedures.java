@@ -18,7 +18,7 @@ public class StoredProcedures {
 
 		try {
 			// Get a connection to database
-			myCon=DriverManager.getConnection("jdbc:mysql://localhost:3306/movies?user=root&password=Bananer123&useSSL=false");
+			myCon=DriverManager.getConnection("jdbc:mysql://localhost:3306/movies?user=root&password=" "&useSSL=false");
 
 			String ratings = "hotel_name";
 			int stars = 6;
